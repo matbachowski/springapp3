@@ -15,7 +15,7 @@ pipeline {
             }
         }
 
-        stage('Build') {
+        stage('Test') {
                     steps {
                         // Get some code from a GitHub repository
                         sh "mvn test"
